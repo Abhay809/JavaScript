@@ -69,6 +69,9 @@ console.log(b);  // output - undefined
 
 //
 // Data type in js - Number, String, Boolean, undefined, Null, BigInt, Symbol
+// we have 7 primitive data types
+// Non primitive data type - Arrays, Objects
+// Objects - collection of values
 
 // Number data type
 let price1 = 50;
@@ -77,3 +80,53 @@ console.log(price1);
 // String data type
 let fullName1 = "Abhay Mittal";
 console.log(fullName1);
+
+// boolean data type
+isFollow = true;
+
+// undefined
+let w;
+console.log(w);  // undefined
+
+// NUll
+let T = null;
+// typeof T =  object
+// NUll - Absense of an object
+
+//BigInt
+let S = BigInt("123");
+
+// Symbol
+let s1 = Symbol("hello");
+
+// Object - Student
+//Student
+// name string
+//age number
+//marks number
+//isPass Boolean
+
+// Key:value
+// {
+//     age:24;
+//     name:"Abhay mittal"
+// }
+
+// to make collection we generally use const
+const student = {
+    fullName: "Abhay Mittal",
+    age: 19,
+    cgpa: 9.0,
+    isPass: true
+};
+student["age"] = student["age"]+1;   // to change in a variable
+console.log(student["age"]);
+console.log(student[age]);  // not allowed
+console.log(student.age);
+
+student["fullName"] = "Abhay Kumar Mittal";
+console.log(student["fullName"]);
+
+// let can be update
+// const cannot be update
+// const object : key can be update
