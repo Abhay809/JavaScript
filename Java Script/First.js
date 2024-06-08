@@ -34,3 +34,46 @@ Console = "abhay Mital";
 console.log(Console);
 
 // fullName - camelcase - we generally use
+
+// var,let,const 
+//var
+var age = 34;
+var age = 45;
+var age = 78;
+console.log(age);
+// var is older version, in it we can re-declare a variable
+
+// we use let instead of it
+let age1 = 56;
+// let age1 = 78;   // error
+age1 = 45;
+age1 = 34;
+console.log(age1); 
+
+// const - we can not redeclare and cannot update
+const age2 = 78;
+console.log(age2);
+const PI = 3.14;
+console.log(PI);
+
+let b;
+console.log(b);  // output - undefined
+
+// const c;
+// console.log(c);  // error - missing initializer
+
+// var = global scope
+// let = block scope
+// const = block scope
+
+
+//
+// Data type in js - Number, String, Boolean, undefined, Null, BigInt, Symbol
+
+// Number data type
+let price1 = 50;
+console.log(price1);
+
+// String data type
+let fullName1 = "Abhay Mittal";
+console.log(fullName1);
